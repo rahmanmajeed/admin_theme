@@ -27,3 +27,6 @@ Route::get('locale/{locale}', function ($locale) {
     \Session::put('locale', $value);
      return response($value,200);
 });
+Route::get('/login', function () {
+    return view('login');
+});

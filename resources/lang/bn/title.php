@@ -6,4 +6,5 @@ return [
   'menu'  => "মেনু",
   'purchase' => "ক্রয়",
   'settings' => "সেটিংস",
+  'login'  =>'সাইন ইন',
 ];

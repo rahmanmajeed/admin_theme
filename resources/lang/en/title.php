@@ -6,4 +6,6 @@ return [
   'menu'  => "Menu",
   'purchase' => "Purchase",
   'settings' => "Settings",
+  'login'  =>'Sign In',
+
 ];
