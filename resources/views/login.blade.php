@@ -42,24 +42,24 @@
                         <h3 class="box-title m-b-20">@lang('title.login')</h3>
                         <div class="form-group ">
                             <div class="col-xs-12">
-                                <input class="form-control" type="text" required="" placeholder="Username"> </div>
+                                <input class="form-control" type="text" required="" placeholder="@lang('auth.username')"> </div>
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12">
-                                <input class="form-control" type="password" required="" placeholder="Password"> </div>
+                                <input class="form-control" type="password" required="" placeholder="@lang('auth.password')"> </div>
                         </div>
                         <div class="form-group row">
                             <div class="col-md-12">
                                 <div class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                    <label class="custom-control-label" for="customCheck1">Remember me</label>
-                                    <a href="javascript:void(0)" id="to-recover" class="text-dark pull-right"><i class="fa fa-lock m-r-5"></i> Forgot pwd?</a>
+                                    <label class="custom-control-label" for="customCheck1">@lang('auth.remember')</label>
+                                    <a href="javascript:void(0)" id="to-recover" class="text-dark pull-right"><i class="fa fa-lock m-r-5"></i> @lang('auth.forgotpass')</a>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group text-center">
                             <div class="col-xs-12 p-b-20">
-                                <button class="btn btn-block btn-lg btn-info btn-rounded" type="submit">Log In</button>
+                                <button class="btn btn-block btn-lg btn-info btn-rounded" type="submit">@lang('title.login')</button>
                             </div>
                         </div>
                         <div class="row">
@@ -72,7 +72,7 @@
                         </div>
                         <div class="form-group m-b-0">
                             <div class="col-sm-12 text-center">
-                                Don't have an account? <a href="pages-register.html" class="text-info m-l-5"><b>Sign Up</b></a>
+                            @lang('auth.have_account') <a href="pages-register.html" class="text-info m-l-5"><b>@lang('auth.signUp')</b></a>
                             </div>
                         </div>
                     </form>
